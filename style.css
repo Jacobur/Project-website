@@ -1,0 +1,66 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.head {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(74, 74, 74),
+    rgba(217, 217, 217, 0.906)
+  );
+  margin-top: 0%;
+  padding: 1%;
+ 
+}
+.class1 {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: purple;
+}
+
+h3 {
+  color: black;
+}
+h4 {
+  color: black;
+  padding: 0px;
+  width: 0%;
+  text-align: right;
+  margin-right: 0%;
+  
+}
+h4:hover {
+  transition-duration: 3s;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(17, 0, 251),
+    rgb(0, 136, 255)
+  );
+}
+h4:hover:after {
+  content: attr(data-hover);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(17, 0, 251),
+    rgb(0, 136, 255)
+  );
+}
+.title {
+  margin-left: 0%;
+  width: 50%;
+  margin-top: 0%;
+  display: inline-block;
+}
+.title1 {
+  margin-right: 0%;
+  width: 50%;
+  margin-top: 0%;
+  display: inline-block;
+}
